@@ -28,6 +28,11 @@ int main()
         cout << v[i] << " ";
     }
     cout << endl;
+    
+    // another way to print vector element
+    for (auto &i : v)
+        cout << i << " ";
+    cout << endl;
 
     // using begin() and end()
     for (auto i = v.begin(); i != v.end(); i++)

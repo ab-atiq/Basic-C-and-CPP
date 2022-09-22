@@ -16,6 +16,13 @@ int main()
     {
         v.push_back(i);
     }
+    
+    // user can add element as much as they want
+    //     int a;
+    //     while(cin>>a)
+    //     { 
+    //         v.push_back(a);
+    //     }
 
     // for (int i = 0; i < 5; i++)
     // {
